@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background:gray;
+}
+header{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+.start{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.score-board{
+  text-align: center;
+  width:100px;
+  padding: 15px 20px ;
+  font-family: serif;
+  margin:20px auto;
+  border:1px solid white;
+  cursor:pointer;
+  border-radius: 10px;
+  position: relative;
+}
+#userbadge{
+
+  color:red;
+  position: absolute;
+  top:15px;
+  left:-15px;
+
+}
+#computerbadge{
+  color:red;
+  position: absolute;
+  top:15px;
+  right:-15px;
+
+}
+.choice{
+  display: inline-block;
+  position: relative;
+  left:40%;
+  padding-top: 20px;
+  cursor: pointer;
+  margin: 10px;
+
+}
+.result {
+  text-align: center;
+  font-size: 25px;
+}
